@@ -1,0 +1,50 @@
+# Credentials and sensitive data
+*credentials*.csv
+wasabi_credentials*
+*_credentials_*
+config/credentials.json
+config/upload_config_local.json
+
+# Data directories
+data/output/
+data/staging/
+data/archive/
+logs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.clinerules
+
+# Local notes
+local_notes.txt
+TODO_local.md
+notes*.txt
+
+# Test data
+test_*/
+
+# Database dumps
+*.sql
+*.db
+*.sqlite
+
+# Backup files
+*.bak
+*~
+*.swp

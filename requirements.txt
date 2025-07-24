@@ -1,0 +1,16 @@
+# BestReviews Asset Management Dependencies
+
+# AWS SDK for S3-compatible operations (Wasabi)
+boto3>=1.26.0
+
+# Data processing and CSV handling
+pandas>=2.0.0
+
+# Optional: for progress bars in scripts
+tqdm>=4.65.0
+
+# Optional: for parallel processing
+concurrent-futures>=3.1.1
+
+# Optional: for file hashing
+xxhash>=3.2.0

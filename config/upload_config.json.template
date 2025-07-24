@@ -1,0 +1,11 @@
+{
+  "production_bucket": "bestreviews.com",
+  "cold_storage_bucket": "bestreviews-cold-storage",
+  "batch_prefix": "HD2025_07",
+  "staging_directory": "/path/to/local/staging",
+  "max_batch_size_mb": 1024,
+  "max_batch_files": 100,
+  "upload_threads": 5,
+  "public_access_production": true,
+  "public_access_cold": false
+}
