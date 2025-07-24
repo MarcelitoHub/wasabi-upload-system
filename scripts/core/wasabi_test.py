@@ -6,7 +6,11 @@ Uses secure credential management via environment variables.
 
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+# Add the scripts directory to Python path
+script_dir = os.path.dirname(os.path.abspath(__file__))
+scripts_dir = os.path.dirname(script_dir)
+sys.path.insert(0, scripts_dir)
 
 from utils.credentials import get_s3_client, get_wasabi_credentials
 
