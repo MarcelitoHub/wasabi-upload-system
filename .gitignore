@@ -4,6 +4,9 @@ wasabi_credentials*
 *_credentials_*
 config/credentials.json
 config/upload_config_local.json
+.env
+.env.local
+.env.production
 
 # Data directories
 data/output/
